@@ -61,6 +61,11 @@ if(isset($_REQUEST['myForm'])){
     <style>
         /* Container padding */
            /* Container padding */
+           *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+           }
            .container {
             padding: 0 15px;
         }
